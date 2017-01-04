@@ -25,12 +25,15 @@ const enum {
 const char *cli_message[] = {
     /* HELP */
     "imagekeys -- Colorful letter-typing game for children\n"
-     "By Andrew cashner, 2017\n"
-     "Usage: image_keys [-d IMAGE_DIRECTORY]\n"
-     "Default image directory is ./img/\n",
+     "Usage: image_keys [-hv -d IMAGE_DIRECTORY]\n"
+     "  -h  Display this help message\n"
+     "  -v  Display version information\n"
+     "  -d  Specify directory for images (Default: ./img/)\n\n"
+     "Press ESCAPE or close window to exit.\n\n"
+     "By Andrew A. Cashner, 2017, andrewacashner at gmail\n",
 
     /* VERSION */
-    "imagekeys v1.0\n"
+    "imagekeys v1.0 by Andrew A. Cashner, andrewacashner at gmail\n"
 };
 
 /*   SDL error messages */

@@ -21,6 +21,8 @@ aardvark, or a giant letter A.
 * Default directory is `./img/`.
 * E.g., `image_keys -d ~/Pictures/imagekeys/`
 
+Press ESCAPE or close the window to exit.
+
 ## Setup 
 
 ### Install SDL2
