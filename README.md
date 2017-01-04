@@ -1,6 +1,10 @@
 # `imagekeys` -- Letter typing game for children
 
-Andrew A. Cashner
+Andrew A. Cashner, `andrewacashner` at gmail
+
+## Change Log
+
+* 2017-01-04 -- Version 1.0
 
 ## Description
 
