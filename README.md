@@ -12,7 +12,7 @@ aardvark, or a giant letter A.
 
 ## Usage
 
-`imagekeys [-d DIRECTORY]`
+`imagekeys [-hv -d DIRECTORY]`
 
 * Default directory is `./img/`.
 * E.g., `image_keys -d ~/Pictures/imagekeys/`
@@ -22,7 +22,8 @@ aardvark, or a giant letter A.
 ### Install SDL2
 
 On a Linux system, use your package manager (`aptitude`, `dnf`) to install 
-the SDL2 library as root. E.g., `sudo dnf install SDL2`
+the SDL2 library as root. E.g., `sudo dnf install SDL2 SDL2-devel`
+Check your operating system information to make sure which packages to install.
 
 ### Compile `imagekeys`
 
